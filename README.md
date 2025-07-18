@@ -46,7 +46,7 @@ Make sure it’s the default or accessible via Selenium.
 ## Excel File Format
 
 - The script expects an `.xlsx` or `.xls` file.
-- All **HRMIS links must be in Column C** (starting at any row).
+- All **Website links must be in Column C** (starting at any row).
 - Example:
 
 | A        | B       | C                                                  |
