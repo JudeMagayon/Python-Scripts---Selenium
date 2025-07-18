@@ -8,7 +8,7 @@ This Python script automates the process of:
 
 ---
 
-## 📁 Features
+## Features
 
 - ✅ Manual login support (secure for MFA)
 - ✅ Excel input (URLs in Column C)
@@ -43,7 +43,7 @@ Make sure it’s the default or accessible via Selenium.
 
 ---
 
-## 📄 Excel File Format
+## Excel File Format
 
 - The script expects an `.xlsx` or `.xls` file.
 - All **HRMIS links must be in Column C** (starting at any row).
@@ -56,16 +56,16 @@ Make sure it’s the default or accessible via Selenium.
 
 ---
 
-## ▶️ How to Run the Script
+## How to Run the Script
 
-### 🪟 Windows
+### Windows
 
 ```
 cd path\to\script
 python hrmis_download_script.py
 ```
 
-### 🍎 macOS
+### macOS
 
 ```
 cd /path/to/script
@@ -74,7 +74,7 @@ python3 hrmis_download_script.py
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. Launches Chrome and opens the HRMIS login page.
 2. You log in manually using your credentials.
@@ -86,14 +86,14 @@ python3 hrmis_download_script.py
 
 ---
 
-## 📂 Output
+## Output
 
 - Optionally creates a `pdfs/` folder (for future file saving).
 - Logs progress and errors in the terminal.
 
 ---
 
-## ❗ Troubleshooting
+## Troubleshooting
 
 - **Nothing happens after URL opens**: The download icon may be missing or has a different structure.
 - **Element not clickable error**: The icon may load late or need scrolling. Try increasing wait time.
@@ -101,7 +101,7 @@ python3 hrmis_download_script.py
 
 ---
 
-## 📌 Notes
+## Notes
 
 - The script is designed for **manual login**, useful when MFA or Captchas are used.
 - If you want persistent login (no login every run), ask how to enable Chrome profile reuse.
@@ -109,7 +109,7 @@ python3 hrmis_download_script.py
 
 ---
 
-## 🛠️ To-Do (Optional Enhancements)
+##  To-Do (Optional Enhancements)
 
 - [ ] Auto-download PDF using DevTools Protocol
 - [ ] Use Chrome user profile for persistent sessions
@@ -118,12 +118,7 @@ python3 hrmis_download_script.py
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
-Made with 💻 by [Your Name]
+Created by Jude Magayon
 
----
-
-## 📃 License
-
-MIT License (or replace with your license of choice)
