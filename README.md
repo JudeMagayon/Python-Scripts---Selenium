@@ -1,4 +1,4 @@
-# 🚀 HRMIS Auto-Download Script
+# Auto-Download Script
 
 This Python script automates the process of:
 1. Opening the [website - edit the website part on the script]
