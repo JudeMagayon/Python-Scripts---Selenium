@@ -51,8 +51,8 @@ Make sure it’s the default or accessible via Selenium.
 
 | A        | B       | C                                                  |
 |----------|---------|----------------------------------------------------|
-| (empty)  | (empty) | https://hrmis.airforce.mil.ph/confirm_dash_a1/994 |
-| ...      | ...     | https://hrmis.airforce.mil.ph/confirm_dash_a1/995 |
+| (empty)  | (empty) | https://yourwebsite.withpdf.viewer.and.download.option |
+
 
 ---
 
