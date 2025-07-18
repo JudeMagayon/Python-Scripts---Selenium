@@ -33,8 +33,8 @@ df = df.dropna()
 print(f"📄 Loaded {len(df)} entries.")
 
 # === Login manually ===
-driver.get("https://hrmis.airforce.mil.ph/login")
-input("🔐 Please log in manually, then press Enter to continue...")
+driver.get("https://yourwebsitewithlogin.com")
+input(" Please log in manually, then press Enter to continue...")
 
 # === Download PDFs ===
 for idx, row in df.iterrows():
